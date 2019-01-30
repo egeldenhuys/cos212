@@ -1,2 +1,2 @@
-# cos212
-COS 212 Resources for 2019
+# COS 212 (2019)
+
