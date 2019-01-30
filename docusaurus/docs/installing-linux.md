@@ -30,6 +30,8 @@ for a pleasant experience.
 2. Download and install [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 3. [Install Fedora as a VirtualBox Guest](https://fedoramagazine.org/install-fedora-virtualbox-guest/)
     1. After creating the virtual machine you may want to increate the amount of processors allocated by going to `Settings > System > Processor`
+    2. Guest additions should be installed already (Try `sudo dnf update`)
+4. It might be a good idea to take a snapshot of your fresh VM at this point. (Optional)
 
 ## Post Installation Setup
 ### Add user to sudoers file
@@ -42,6 +44,6 @@ Future resources will assume your user can use [sudo](https://wiki.archlinux.org
 2. Restart for changes to take effect
 
 ### Update
-```
+```sh
 sudo dnf update
 ```
