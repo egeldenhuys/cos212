@@ -47,3 +47,22 @@ Future resources will assume your user can use [sudo](https://wiki.archlinux.org
 ```sh
 sudo dnf update
 ```
+
+### Install Zsh
+[Zsh](https://wiki.archlinux.org/index.php/zsh) is similar to bash but has better tab completion and globbing.
+
+Install zsh:
+```sh
+sudo dnf install zsh
+```
+
+Change the default shell:
+```sh
+chsh --shel /bin/zsh <user>
+```
+
+Download config for zsh:
+```sh
+curl https://raw.githubusercontent.com/egeldenhuys/cos212/master/dotfiles/zshrc --output ~/.zshrc
+curl https://raw.githubusercontent.com/egeldenhuys/cos212/master/dotfiles/zshrc.local --output ~/.zshrc.local
+```
