@@ -3,7 +3,7 @@ id: installing-linux
 title: Installing Linux
 ---
 
-This guide will walk you through installing Fedora 29 and setting up a development envrionment
+This guide will walk you through installing Fedora 29 and setting up a development environment.
 for Java.
 
 While you can use Windows/Mac, all guides and resources will be aimed at Fedora/Linux.
@@ -24,12 +24,12 @@ This is the quickest way to get started without risk of data loss, but requires 
 for a pleasant experience.
 
 1. Download a Fedora Workstation ISO from https://getfedora.org/en/
-    1. There are alternative desktop enviroments available at https://spins.fedoraproject.org/
+    1. There are alternative desktop environments available at https://spins.fedoraproject.org/
     2. [Cinnamon](https://spins.fedoraproject.org/en/cinnamon/) is the closest to the Windows experience but is more resource intensive than LXDE
     3. [LXDE](https://spins.fedoraproject.org/en/lxde/) is a less attractive (in my opinion) but also a "less resource hungry" Desktop Environment
 2. Download and install [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 3. [Install Fedora as a VirtualBox Guest](https://fedoramagazine.org/install-fedora-virtualbox-guest/)
-    1. After creating the virtual machine you may want to increate the amount of processors allocated by going to `Settings > System > Processor`
+    1. After creating the virtual machine you may want to increase the amount of processors allocated by going to `Settings > System > Processor`
     2. Guest additions should be installed already (Try `sudo dnf update`)
 4. It might be a good idea to take a snapshot of your fresh VM at this point. (Optional)
 
@@ -58,7 +58,7 @@ sudo dnf install zsh
 
 Change the default shell:
 ```sh
-chsh --shel /bin/zsh <user>
+chsh --shell /bin/zsh <user>
 ```
 
 Download config for zsh:
@@ -66,3 +66,5 @@ Download config for zsh:
 curl https://raw.githubusercontent.com/egeldenhuys/cos212/master/dotfiles/zshrc --output ~/.zshrc
 curl https://raw.githubusercontent.com/egeldenhuys/cos212/master/dotfiles/zshrc.local --output ~/.zshrc.local
 ```
+
+Log out and back in for changes to take effect.

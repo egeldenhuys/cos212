@@ -15,12 +15,12 @@ sudo dnf install java-1.8.0-openjdk java-1.8.0-openjdk-devel
 ```
 
 ## Visual Studio Code
-[Visual Studio Code](https://code.visualstudio.com/) is a flexible editor with Extensions for most major languages.
-[IntelliJ](https://www.jetbrains.com/idea/) works better out of the box but is limited to Java. Last I checked the debugging features
-of IntelliJ are better than vscode.
+- [Visual Studio Code](https://code.visualstudio.com/) is a flexible editor with Extensions for most major languages.
+- [IntelliJ](https://www.jetbrains.com/idea/) has better debugging features out of the box but is limited to Java.
 
-- https://code.visualstudio.com/docs/setup/linux
+I will be using VSCode.
 
+https://code.visualstudio.com/docs/setup/linux :
 ```sh
 sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
 sudo sh -c 'echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/vscode.repo'
@@ -31,8 +31,16 @@ sudo dnf install code
 
 VSCode can now be opened by running `code` from the terminal.
 
-### Install vscode Extensions
-- Java Extension Pack (`vscjava.vscode-java-pack`)
+### Extensions
+Without extensions VSCode is just a good text editor. With extensions it can be turned into an IDE.
+
+```sh
+# Java Extension Pack:
+code --install-extension vscjava.vscode-java-pack
+
+# Spell Checker
+code --install-extension streetsidesoftware.code-spell-checker
+```
 
 ## Git
 [Git](https://en.wikipedia.org/wiki/Git) is a distributed version control system for tracking changes in source code during software development - Wikipedia.
@@ -45,21 +53,8 @@ If used correctly Git and GitHub will provide you with the following:
 - Less headaches (after you learn the basics of Git)
 
 So go ahead and install git:
-```
+```sh
 sudo dnf install git
 ```
 
-We will look at git closer in a future document.
-
-### GitHub
-To make full use of git, you need a [GitHub](https://github.com/) account.
-GitHub now provides free private repositories!
-
-#### Example Usage
-1. Create a PRIVATE repository named `cos212`
-2. For each prac/assignment create a new folder in the repository
-3. Keep repositories in `~/github`
-
-This way all related things are stored together and easy to find.
-
-### 
+We will look into using git at a later stage.
