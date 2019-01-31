@@ -1,5 +1,5 @@
 {
   "docs": {
-    "Getting Started": ["installing-linux", "development-environment"]
+    "Getting Started": ["introduction", "installing-linux", "development-environment"]
   }
 }

@@ -49,6 +49,8 @@ So go ahead and install git:
 sudo dnf install git
 ```
 
+We will look at git closer in a future document.
+
 ### GitHub
 To make full use of git, you need a [GitHub](https://github.com/) account.
 GitHub now provides free private repositories!

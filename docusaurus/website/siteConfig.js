@@ -38,7 +38,7 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'installing-linux', label: 'Docs'}
+    {doc: 'introduction', label: 'Docs'}
     // {doc: 'doc4', label: 'API'},
     // {page: 'help', label: 'Help'},
     // {blog: true, label: 'Blog'},
@@ -54,10 +54,18 @@ const siteConfig = {
 
   /* Colors for website */
   colors: {
-    primaryColor: '#2E8555',
+    primaryColor: '#531b82',
+    
     secondaryColor: '#205C3B',
   },
 
+  // colors: {
+  //   primaryColor: '#2E8555',
+    
+  //   secondaryColor: '#205C3B',
+  // },
+
+  //#531b82
   /* Custom fonts for website */
   /*
   fonts: {
