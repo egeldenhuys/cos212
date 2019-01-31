@@ -9,4 +9,5 @@
 <url> <loc>http://cos212.evert.io/blog/2016/03/11/blog-post</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
 <url> <loc>http://cos212.evert.io/docs/development-environment</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://cos212.evert.io/docs/development-environment" /> </url>
 <url> <loc>http://cos212.evert.io/docs/installing-linux</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://cos212.evert.io/docs/installing-linux" /> </url>
+<url> <loc>http://cos212.evert.io/docs/introduction</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://cos212.evert.io/docs/introduction" /> </url>
 </urlset>
