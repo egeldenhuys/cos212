@@ -112,6 +112,7 @@ const siteConfig = {
   
   gaTrackingId: 'UA-133556707-1',
   gaGtag: true,
+  cname: "cos212.evert.io",
 };
 
 module.exports = siteConfig;
