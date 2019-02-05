@@ -23,7 +23,7 @@
 const siteConfig = {
   title: 'COS 212 Resources', // Title for your website.
   tagline: 'Guides and resources for COS 212',
-  url: 'http://cos212.evert.io', // Your website URL
+  url: 'https://cos212.evert.io', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',

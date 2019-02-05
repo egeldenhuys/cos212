@@ -41,20 +41,3 @@ code --install-extension vscjava.vscode-java-pack
 # Spell Checker
 code --install-extension streetsidesoftware.code-spell-checker
 ```
-
-## Git
-[Git](https://en.wikipedia.org/wiki/Git) is a distributed version control system for tracking changes in source code during software development - Wikipedia.
-
-If used correctly Git and GitHub will provide you with the following:
-- Ability to revert to the previous version of code that worked.
-- Backup of your source code in case of user error or hardware failure.
-- Easily clone your source code on another machine to continue working.
-- Collaboration for non COS 212 related projects.
-- Less headaches (after you learn the basics of Git)
-
-So go ahead and install git:
-```sh
-sudo dnf install git
-```
-
-We will look into using git at a later stage.
