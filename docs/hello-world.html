@@ -84,7 +84,6 @@ This Hello World will include using git and GitHub.</p>
 </ol></li>
 <li>Create <code>Main.java</code>
 <ol>
-<li>Due to the constraints of FitchFork it is best if Project Management Tools such as <a href="https://maven.apache.org/">Maven</a> and <a href="https://gradle.org/">Gradle</a> are not used.</li>
 <li>Contents:
 <pre><code class="hljs">    <span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title">Main</span> {
         <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span>(<span class="hljs-params">String[] args</span>)</span> {
@@ -103,6 +102,41 @@ This Hello World will include using git and GitHub.</p>
 <li>Verify output in Debug Console</li>
 </ol></li>
 <li>If everything worked then your Development Environment has been successfully configured.</li>
+<li>Create a new commit with your Hello World code
+<ol>
+<li><code>git add -all</code></li>
+<li><code>git commit --message &quot;Hello World&quot;</code></li>
+</ol></li>
+<li>Push your code to GitHub
+<ol>
+<li><code>git push origin master</code></li>
+</ol></li>
 </ol>
 <h2><a class="anchor" aria-hidden="true" id="hello-world-in-intellij-idea-with-unit-testing"></a><a href="#hello-world-in-intellij-idea-with-unit-testing" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Hello World in IntelliJ IDEA with Unit Testing</h2>
+<p>IntelliJ works best when used with <a href="https://maven.apache.org/">Maven</a> or <a href="https://gradle.org/">Gradle</a>.
+I will be using Gradle since I know more about it.</p>
+<p><a href="https://testng.org/doc/index.html">TestNG</a> will be used for writing unit tests.
+Setting up TestNG can be a daunting task if you are not familiar with Java and Gradle, so to spare you time
+I have made a scaffold that works out of the box with Gradle.
+<a href="https://github.com/egeldenhuys/cos212-prac-scaffold">cos212-prac-scaffold</a> can be found on GitHub.</p>
+<ol>
+<li>Download and install <a href="https://www.jetbrains.com/idea/">IntelliJ IDEA</a></li>
+<li>Create a directory for the scaffold
+<ol>
+<li><code>mkdir ~/github/hello-world-test</code></li>
+</ol></li>
+<li>Download the scaffold archive
+<ol>
+<li><code>curl --location https://github.com/egeldenhuys/cos212-prac-scaffold/archive/master.tar.gz --output /tmp/master.tar.gz</code></li>
+<li><code>--location</code> - Follow redirects</li>
+</ol></li>
+<li>Extract the archive
+<ol>
+<li><code>tar --extract --file /tmp/master.tar.gz --directory hello-world --strip-components 1</code></li>
+<li><code>--strip-components 1</code> will remove the first component in the path of the file that is being extracted.
+For example <code>/cos212-prac-scaffold/README.md</code> will be extracted to <code>README.md</code> instead of <code>/cos212-prac-scaffold/README.md</code></li>
+</ol></li>
+<li>Open <code>~/github/hello-world-test</code> with IntelliJ</li>
+<li>To be continued...</li>
+</ol>
 </span></div></article></div><div class="docLastUpdate"><em>Last updated on 2/5/2019 by Evert Geldenhuys</em></div><div class="docs-prevnext"><a class="docs-prev button" href="/docs/version-control"><span class="arrow-prev">← </span><span>Version Control</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#git">Git</a></li><li><a href="#hello-world-in-visual-studio-code">Hello World in Visual Studio Code</a></li><li><a href="#hello-world-in-intellij-idea-with-unit-testing">Hello World in IntelliJ IDEA with Unit Testing</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"><img src="/img/docusaurus.svg" alt="COS 212 Resources" width="66" height="58"/></a><div><h5>Docs</h5><a href="/docs/en/introduction.html">Getting Started</a></div><div><a href="https://github.com/egeldenhuys/cos212">GitHub</a><a class="github-button" href="https://github.com/egeldenhuys/cos212" data-icon="octicon-star" data-show-count="true" aria-label="Star egeldenhuys/cos212 on GitHub">Star</a></div></section><a href="https://code.facebook.com/projects/" target="_blank" rel="noreferrer noopener" class="fbOpenSource"><img src="/img/oss_logo.png" alt="Facebook Open Source" width="170" height="45"/></a><section class="copyright">Copyright © 2019 Evert Geldenhuys</section></footer></div></body></html>
