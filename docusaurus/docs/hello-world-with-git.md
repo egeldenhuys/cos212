@@ -1,6 +1,6 @@
 ---
-id: hello-world
-title: Hello World
+id: hello-world-with-git
+title: Hello World with Git
 ---
 
 After all the installations and configuration we are ready to create the classic Hello World in Java.

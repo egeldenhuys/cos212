@@ -1,5 +1,11 @@
 {
   "docs": {
-    "Getting Started": ["introduction", "installing-linux", "development-environment", "version-control", "hello-world"]
+    "Getting Started": [
+      "introduction",
+      "installing-linux",
+      "development-environment",
+      "java-crash-course",
+      "version-control",
+      "hello-world-with-git"]
   }
 }

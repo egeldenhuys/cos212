@@ -17,7 +17,7 @@ Source: [Git Handbook - guides.github.com](https://guides.github.com/introductio
 For more information on [Git]
 
 ## Git
-[Git](https://en.wikipedia.org/wiki/Git) is a distributed version control system for tracking changes in source code during software development - Wikipedia.
+"[Git](https://en.wikipedia.org/wiki/Git) is a distributed version control system for tracking changes in source code during software development" - Wikipedia.
 
 If used correctly Git and GitHub will provide you with the following:
 - Ability to revert to the previous version of code that worked.
@@ -55,4 +55,4 @@ git config --global user.email "john.doe@example.com"
 
 ### Further Reading
 - [Caching your GitHub password in Git](https://help.github.com/articles/caching-your-github-password-in-git/)
-
+- [Git Handbook - guides.github.com](https://guides.github.com/introduction/git-handbook/)
