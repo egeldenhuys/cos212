@@ -8,10 +8,10 @@
 <url> <loc>https://cos212.evert.io/blog/2017/09/25/testing-rss</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
 <url> <loc>https://cos212.evert.io/blog/2017/04/10/blog-post-two</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
 <url> <loc>https://cos212.evert.io/blog/2016/03/11/blog-post</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
-<url> <loc>https://cos212.evert.io/docs/development-environment</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://cos212.evert.io/docs/development-environment" /> </url>
-<url> <loc>https://cos212.evert.io/docs/hello-world-with-git</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://cos212.evert.io/docs/hello-world-with-git" /> </url>
-<url> <loc>https://cos212.evert.io/docs/installing-linux</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://cos212.evert.io/docs/installing-linux" /> </url>
-<url> <loc>https://cos212.evert.io/docs/introduction</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://cos212.evert.io/docs/introduction" /> </url>
-<url> <loc>https://cos212.evert.io/docs/java-crash-course</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://cos212.evert.io/docs/java-crash-course" /> </url>
-<url> <loc>https://cos212.evert.io/docs/version-control</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://cos212.evert.io/docs/version-control" /> </url>
+<url> <loc>https://cos212.evert.io/docs/getting-started/development-environment</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://cos212.evert.io/docs/getting-started/development-environment" /> </url>
+<url> <loc>https://cos212.evert.io/docs/getting-started/installing-linux</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://cos212.evert.io/docs/getting-started/installing-linux" /> </url>
+<url> <loc>https://cos212.evert.io/docs/getting-started/introduction</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://cos212.evert.io/docs/getting-started/introduction" /> </url>
+<url> <loc>https://cos212.evert.io/docs/java-crash-course/hello-world</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://cos212.evert.io/docs/java-crash-course/hello-world" /> </url>
+<url> <loc>https://cos212.evert.io/docs/tools/hello-world-with-git</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://cos212.evert.io/docs/tools/hello-world-with-git" /> </url>
+<url> <loc>https://cos212.evert.io/docs/tools/version-control</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://cos212.evert.io/docs/tools/version-control" /> </url>
 </urlset>
