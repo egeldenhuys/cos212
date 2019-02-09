@@ -1,6 +1,6 @@
 ---
-id: java-crash-course
-title: Java Crash Course
+id: hello-world
+title: Hello World
 ---
 
 ## Hello World
@@ -19,6 +19,13 @@ Some things to note:
 - Unlike C++, there are no header files. `Main.java` contains your class and method definitions.
 - The file name has to match the class name.
 - Only one class can be defined in the file.
+
+TODO:
+- void?
+- arg types?
+- public?
+- static?
+- makefile?
 
 ### Compiling
 Once [Java](https://www.oracle.com/technetwork/java/javase/downloads/index.html) and [Java JDK](https://www.oracle.com/technetwork/java/javase/downloads/jdk11-downloads-5066655.html) have been installed Java programs can be compiled using `javac`

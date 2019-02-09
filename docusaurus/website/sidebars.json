@@ -1,11 +1,16 @@
 {
   "docs": {
     "Getting Started": [
-      "introduction",
-      "installing-linux",
-      "development-environment",
-      "java-crash-course",
-      "version-control",
-      "hello-world-with-git"]
+      "getting-started/introduction",
+      "getting-started/installing-linux",
+      "getting-started/development-environment"
+    ],
+    "Java Crash Course": [
+      "java-crash-course/hello-world"
+    ],
+    "Tools": [
+      "tools/version-control",
+      "tools/hello-world-with-git"
+    ]
   }
 }
