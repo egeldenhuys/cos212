@@ -1,0 +1,11 @@
+- [X] Comments
+- [X] Variables and Types
+- [ ] Conditionals
+- [ ] Arrays
+- [ ] Loops
+- [ ] Functions
+- [ ] Objects
+- [ ] Memory Management
+- [ ] Inheritance
+- [ ] toString
+- [ ] 

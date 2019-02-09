@@ -6,7 +6,12 @@
       "getting-started/development-environment"
     ],
     "Java Crash Course": [
-      "java-crash-course/hello-world"
+      "java-crash-course/hello-world",
+      "java-crash-course/compiling-running",
+      "java-crash-course/makefile",
+      "java-crash-course/comments",
+      "java-crash-course/variables-and-types",
+      "java-crash-course/operators"
     ],
     "Tools": [
       "tools/version-control",

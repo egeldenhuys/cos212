@@ -7,17 +7,8 @@ This guide will walk you through installing Fedora 29 and setting up a developme
 for Java.
 
 While you can use Windows/Mac, all guides and resources will be aimed at Fedora/Linux.
-Personally I find development much easier on Linux.
 
 ## Installing Fedora
-### Dual Boot with Windows
-
-This is the recommended setup if you still need Windows.
-If Windows is installed first then the setup is usually without problems.
-
-#### Further Reading
-- [Dual boot with Windows - wiki.archlinux.org](https://wiki.archlinux.org/index.php/Dual_boot_with_Windows)
-
 ### Virtual Machine
 
 This is the quickest way to get started without risk of data loss, but requires a decent computer
