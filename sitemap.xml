@@ -18,6 +18,7 @@
 <url> <loc>https://cos212.evert.io/docs/java-crash-course/operators</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://cos212.evert.io/docs/java-crash-course/operators" /> </url>
 <url> <loc>https://cos212.evert.io/docs/java-crash-course/todo</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://cos212.evert.io/docs/java-crash-course/todo" /> </url>
 <url> <loc>https://cos212.evert.io/docs/java-crash-course/variables-and-types</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://cos212.evert.io/docs/java-crash-course/variables-and-types" /> </url>
+<url> <loc>https://cos212.evert.io/docs/slides</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://cos212.evert.io/docs/slides" /> </url>
 <url> <loc>https://cos212.evert.io/docs/tools/hello-world-with-git</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://cos212.evert.io/docs/tools/hello-world-with-git" /> </url>
 <url> <loc>https://cos212.evert.io/docs/tools/version-control</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://cos212.evert.io/docs/tools/version-control" /> </url>
 </urlset>
