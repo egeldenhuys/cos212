@@ -1,0 +1,208 @@
+\documentclass{beamer}
+ \usetheme{Madrid}
+ 
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{minted}
+\usepackage[backend=biber,style=numeric-comp,sorting=none]{biblatex}
+\usepackage{csquotes}
+\usepackage{hyperref}
+\bibliography{references.bib}
+\beamertemplatenavigationsymbolsempty
+
+\definecolor{lightGray}{HTML}{e5e5e5}
+
+%Information to be included in the title page:
+\title{COS 212 - Java Crash Course}
+\author{Evert Geldenhuys}
+\institute{University of Pretoria}
+\date{12 February 2019}
+ 
+
+\begin{document}
+ 
+\frame{\titlepage}
+ 
+\begin{frame}
+\frametitle{Table of Contents}
+\tableofcontents
+\end{frame}
+
+\section{Hello World}
+\begin{frame}{Hello World}
+    \inputminted{java}{HelloWorld.java}
+    
+    \textbf{Compile:}
+    \mint{shell}|javac *.java|
+    \textbf{Run:}
+    \mint{shell}|java HelloWorld|
+    \textbf{Outputs:}
+    \mint{shell}|Hello, World!|
+\end{frame}
+
+\section{Makefile}
+\begin{frame}{Makefile}
+    \inputminted[
+frame=lines,
+framesep=2mm,
+baselinestretch=1.2,
+bgcolor=lightGray,
+linenos
+]{text}{Makefile}
+    \textbf{Compile:}
+    \mint{shell}|make|
+    
+    \textbf{Run:}
+    \mint{shell}|make run|
+
+\end{frame}
+\section{Data Types}
+
+\begin{frame}{Primitive Data Types}
+\begin{table}[]
+\begin{tabular}{|l|l|l|}
+\hline
+\textbf{Type} & \textbf{Size} & \textbf{Range}                                  \\ \hline
+boolean       & depends       & true, false                                     \\ \hline
+char          & 2 bytes       & Unicode characters                              \\ \hline
+byte          & 1 byte        & {[}-128, 127{]}                                 \\ \hline
+short         & 2 bytes       & {[}-32768, 32767{]}                             \\ \hline
+int           & 4 bytes       & {[}-2147483648, 2147483647{]}                   \\ \hline
+long          & 8 bytes       & {[}-9223372036854775808, 9223372036854775807{]} \\ \hline
+float         & 4 bytes       & {[}-3.4E38, 3.4E38{]}                           \\ \hline
+double        & 8 bytes       & {[}-1.7E308, 1.7E308{]}                         \\ \hline
+\end{tabular}
+\end{table}
+\footfullcite{drozdek_2013}
+
+\begin{itemize}
+    \item Primitive Data Types are not objects, they only contain primitive values
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Reference Data Types}
+    \begin{table}[]
+\begin{tabular}{|l|l|}
+\hline
+\textbf{Primitive type} & \textbf{Wrapper class} \\ \hline
+boolean                 & Boolean                \\ \hline
+byte                    & Byte                   \\ \hline
+char                    & Character              \\ \hline
+float                   & Float                  \\ \hline
+int                     & Integer                \\ \hline
+long                    & Long                   \\ \hline
+short                   & Short                  \\ \hline
+double                  & Double                 \\ \hline
+\end{tabular}
+\end{table}
+\footfullcite{oracle_boxing}
+
+\begin{itemize}
+    \item Reference Data types are Object wrappers around the Primitive data types
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Reference Data Types}
+\begin{itemize}
+    \item The Java compiler will automatically convert between primitive and reference types
+\end{itemize}
+
+\inputminted[fontsize=\footnotesize]{java}{ReferenceDataTypes.java}
+
+\end{frame}
+
+\begin{frame}{Strings}
+    \inputminted{java}{Strings.java}
+    \footfullcite{oracle_strings}
+\end{frame}
+
+\section{Operators}
+
+\begin{frame}{Operators}
+\begin{table}[]
+\begin{tabular}{|l|l|}
+\hline
+\textbf{Operators}   & \textbf{Precedence}                                                                        \\ \hline
+postfix              & expr++ expr--                                                                              \\ \hline
+unary                & ++expr --expr +expr -expr $\sim$ \hspace{0.1cm} !                                                          \\ \hline
+multiplicative       & * / \%                                                                                     \\ \hline
+additive             & + -                                                                                        \\ \hline
+relational           & \textless \hspace{0.1cm} \textgreater \hspace{0.1cm} \textless{}= \hspace{0.1cm} \textgreater{}= \hspace{0.1cm} instanceof                             \\ \hline
+equality             & == !=  \\ \hline
+logical AND          & \&\&                                                                                       \\ \hline
+logical OR           & ||                                                                                         \\ \hline
+ternary              & ? :                                                                                        \\ \hline
+assignment           & = += -= *= /= \%=                                                                                    \\ \hline
+\end{tabular}
+\end{table}
+\footfullcite{oracle_operators} (Excluding bitwise operators)
+\end{frame}
+
+\section{Decision Statements}
+
+\begin{frame}{Decision Statements}
+    \inputminted[fontsize=\footnotesize]{java}{DecisionStatements.java}
+    \footfullcite{drozdek_2013}
+\end{frame}
+
+\section{Loops}
+\begin{frame}{Loops}
+    \inputminted{java}{Loops.java}
+    \footfullcite{drozdek_2013}
+\end{frame}
+
+\section{Exception Handling}
+\begin{frame}{Exception Handling}
+\inputminted[]{java}{ExceptionHandling.java}    
+\end{frame}
+
+\section{Generic Types}
+\begin{frame}{Generic Types}
+\begin{itemize}
+    \item Often you want to work with data in a generic way
+    \item For example code that will work for Integers and Doubles
+    \item Can take advantage of the fact that everything in Java is an Object
+\end{itemize}
+
+\inputminted[]{java}{BoxNonGeneric.java}
+    \footfullcite{oracle_generic_types}
+\end{frame}
+
+\begin{frame}{Generic Types}
+    \inputminted[]{java}{BoxNonGeneric.java}
+    \footfullcite{oracle_generic_types}
+    \begin{itemize}
+        \item However, cannot determine at compile time if the Box class is used correctly
+        \item Code can be written to expect an Integer and a String at a different place which may cause an error
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Generic Types}
+    \inputminted{java}{BoxGeneric.java}
+    \footfullcite{oracle_generic_types}
+\end{frame}
+
+\begin{frame}{Generic Types}
+    \inputminted{java}{BoxGenericUsage.java}
+    \footfullcite{oracle_generic_types}
+\end{frame}
+
+\begin{frame}{COS 212 Resources}
+    These slides and additional guides will be available at:
+    \url{https://cos212.evert.io/} \\
+    
+    Areas not covered:
+    \begin{itemize}
+        \item Arrays
+        \item ArrayList (Dynamic Arrays)
+    \end{itemize}
+\end{frame}
+
+\begin{frame}[t,allowframebreaks]
+  \frametitle{References}
+  \printbibliography
+ \end{frame}
+
+\end{document}
+

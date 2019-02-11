@@ -11,7 +11,8 @@
       "java-crash-course/makefile",
       "java-crash-course/comments",
       "java-crash-course/variables-and-types",
-      "java-crash-course/operators"
+      "java-crash-course/operators",
+      "slides"
     ],
     "Tools": [
       "tools/version-control",
