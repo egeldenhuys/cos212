@@ -5,7 +5,8 @@ title: Hello World
 
 The structure of this crash course was borrowed from [learnjavaonline.org](https://www.learnjavaonline.org/)
 
-Slides covering more content: [java_crash_course.pdf](/slides/java_crash_course.pdf)
+The [Java Crash Course](/slides/java_crash_course.pdf) slides cover more areas but in less detail.
+
 A good place to start and test the Java Installation is with the classic Hello World.
 
 ## Main.java
