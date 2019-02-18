@@ -90,6 +90,12 @@ class Index extends React.Component {
       </Container>
     );
 
+    const Contribute = () => (
+      <div>
+        This website is open source - anyone can add and improve content!
+      </div>
+    );
+
     const FeatureCallout = () => (
       <div
         className="productShowcaseSection paddingBottom"
@@ -143,17 +149,11 @@ class Index extends React.Component {
       <Block layout="fourColumn">
         {[
           {
-            content: 'This is the content of my feature',
-            image: `${baseUrl}img/docusaurus.svg`,
-            imageAlign: 'top',
-            title: 'Feature One',
-          },
-          {
-            content: 'The content of my second feature',
-            image: `${baseUrl}img/docusaurus.svg`,
-            imageAlign: 'top',
-            title: 'Feature Two',
-          },
+            content: 'This website is open source - anyone can contribute and improve on the content! <br /> <br /> <a class="button" href="https://github.com/egeldenhuys/cos212">View on GitHub</a>',
+            // image: `${baseUrl}img/repo-forked.svg`,
+            // imageAlign: 'top',
+            title: 'Open Source',
+          }
         ]}
       </Block>
     );
@@ -191,8 +191,8 @@ class Index extends React.Component {
       <div>
         <HomeSplash siteConfig={siteConfig} language={language} />
         <div className="mainContainer">
-          {/* <Features />
-          <FeatureCallout />
+          <Features />
+          {/* <FeatureCallout />
           <LearnHow />
           <TryOut />
           <Description />
