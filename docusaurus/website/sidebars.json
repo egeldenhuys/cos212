@@ -17,6 +17,9 @@
     "Tools": [
       "tools/version-control",
       "tools/hello-world-with-git"
+    ],
+    "Notes": [
+      "notes/self-organising-lists"
     ]
   }
 }
