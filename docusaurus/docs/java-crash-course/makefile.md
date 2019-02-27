@@ -9,12 +9,11 @@ You can of course optimise the the Makefile to suit your needs.
 
 **EDIT (2019-02-12): The Makefile should be indented with TABs not spaces. Do not copy and paste straight from this webpage since it contains spaces. [Download the makefile instead](/files/makefile)**
 
+**EDIT (2019-02-27): Now compiles and runs in the same rule to avoid Fitchfork errors**
 
 ```makefile
-default:
-	javac *.java
-
 run:
+	javac *.java
 	java Main
 
 clean:
@@ -23,12 +22,8 @@ clean:
 [Download makefile](/files/makefile)
 
 #### Usage
-Compile:
-```sh
-make
-```
-
-Run:
+Compile and Run:
 ```sh
 make run
 ```
+
