@@ -1,7 +1,5 @@
-default:
-	javac *.java
-
 run:
+	javac *.java
 	java Main
 
 clean:
